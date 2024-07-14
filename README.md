@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Directives
+
+### Structural directives: Adds are removes HTML elements  eg. 
+<div *ngIf="length">
+ <p> hide if length is false</p> 
+</div>
+
+### Attribute directives: changes the properties of the HTMl element it gets applied to
+<label appStrikethrough>
+<input type="checkbox"/>
+ UseLetters
+ </label>
+
+ ### Things to remember / Take away notes
+
+### *ngIF , *ngFor are directives and they start with *
+### @selector, @Input are decorators and they start with @
